@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp.dll
+-out:Temp/Unity.ProBuilder.KdTree.dll
 -nostdlib
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
@@ -66,21 +66,27 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
@@ -190,9 +196,15 @@
 -define:ENABLE_BURST_AOT
 -define:ENABLE_VSTU
 -define:UNITY_POST_PROCESSING_STACK_V2
-Assets/Scripts/DetectLookedAtInteractive.cs
-Assets/Scripts/IInteractive.cs
-Assets/Scripts/InteractiveObject.cs
-Assets/Scripts/InteractWithLookedAt.cs
-Assets/Scripts/LookedAtInteractiveDisplayText.cs
-Assets/Scripts/ToggleSetActive.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/AssemblyInfo.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/HyperRect.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/IKdTree.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/IPriorityQueue.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/KdTree.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/KdTreeNode.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/DoubleMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/FloatMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/ITypeMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/TypeMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/NearestNeighbourList.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/PriorityQueue.cs

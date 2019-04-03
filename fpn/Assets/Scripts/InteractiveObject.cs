@@ -6,6 +6,7 @@ public class InteractiveObject : MonoBehaviour, IInteractive
 {
     [SerializeField]
     private string displayText = nameof(InteractiveObject);
+
     public string DisplayText => displayText;
     private AudioSource audioSource;
 
@@ -13,7 +14,7 @@ public class InteractiveObject : MonoBehaviour, IInteractive
     {
         audioSource = GetComponent<AudioSource>();
     }
-    public void interactwith()
+    public virtual void interactwith()
     {
         try
         {

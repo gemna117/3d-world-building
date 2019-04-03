@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Unity.TextMeshPro.dll
+-out:Temp/Unity.ProBuilder.KdTree.dll
 -nostdlib
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
@@ -68,9 +68,6 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -83,10 +80,12 @@
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll
 -r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
@@ -197,48 +196,15 @@
 -define:ENABLE_BURST_AOT
 -define:ENABLE_VSTU
 -define:UNITY_POST_PROCESSING_STACK_V2
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/FastAction.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/MaterialReferenceManager.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/PackageResourceImporterWindow.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshPro.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Asset.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ColorGradient.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Compatibility.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_DefaultControls.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputValidator.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_LineInfo.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ListPool.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MaterialManager.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MeshInfo.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ObjectPool.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SelectionCaret.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Settings.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Sprite.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAnimator.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAsset.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Style.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_StyleSheet.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMesh.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMeshUI.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextElement.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextInfo.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextUtilities.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateManager.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateRegistery.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_XmlTagStack.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ExtensionMethods.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Private.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ShaderUtilities.cs
-C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_UGUI_Private.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/AssemblyInfo.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/HyperRect.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/IKdTree.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/IPriorityQueue.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/KdTree.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/KdTreeNode.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/DoubleMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/FloatMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/ITypeMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/Math/TypeMath.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/NearestNeighbourList.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/External/KdTree/KdTreeLib/PriorityQueue.cs
