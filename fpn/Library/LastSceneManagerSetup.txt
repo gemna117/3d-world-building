@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/penve/Documents/practical/Assets/Scenes/cubescene.unity
+- path: Assets/Scenes/modelingprogress.unity
   isLoaded: 1
   isActive: 1
