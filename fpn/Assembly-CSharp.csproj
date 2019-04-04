@@ -74,7 +74,9 @@
     <Compile Include="Assets\Scripts\IInteractive.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\Scripts\InteractWithLookedAt.cs" />
+    <Compile Include="Assets\Scripts\InventoryObject.cs" />
     <Compile Include="Assets\Scripts\LookedAtInteractiveDisplayText.cs" />
+    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\TitleMenu.cs" />
     <Compile Include="Assets\Scripts\ToggleSetActive.cs" />
     <None Include="Assets\Furniture\3d\Materials\Color Selection.shader" />
