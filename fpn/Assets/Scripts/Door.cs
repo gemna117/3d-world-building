@@ -5,6 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Door : InteractiveObject
 {
+
+    [Tooltip("key to open a locked door")]
+    [SerializeField]
+    private InventoryObject key;
     [Tooltip("check this box to lock the door")]
     [SerializeField]
     private bool isLocked;
@@ -22,21 +26,25 @@ public class Door : InteractiveObject
     private AudioClip openAudioClip;
     public override string displaytext => isLocked ? lockeddisplaytext : base.displayText;
 
-    
-     //   public override string DisplayText
-   // {
-   //     get
-     //   {
-       //     if (isLocked)
-         //       return lockeddisplaytext;
-           // else
-             //   return base.displayText;
-       // }
- //   }
-    
 
+    public override string displaytext()
+    {
+        get
+            {
+            string toReturn;
+
+            if (isLocked)
+                toReturn = hasKey ? $"Use {key.objectName}" : lockeddisplaytext;
+            else
+                toReturn base.displayText;
+            return toReturn;
+        }
+    }
+
+    private bool hasKey => PlayerInventory.InventoryObjects.Contains(key);
     private Animator animator;
     private bool isOpen = false;
+    private bool isLocked;
     private int shouldOpenAnimParameter = Animator.StringToHash ("shouldOpen");
 
     public Door()
@@ -48,6 +56,7 @@ public class Door : InteractiveObject
     {
         base.awake();
         animator = GetComponent<Animator>();
+        
     }
 
     public override void InteractWith()
@@ -57,13 +66,13 @@ public class Door : InteractiveObject
             if (!isLocked)
             {
             audioSource.clip = openAudioClip;
-            animator.SetBool(shouldOpenAnimParameter, true);
-            displayText = string.Empty;
-            isOpen = true;
             }
             else
             {
-                
+                animator.SetBool(shouldOpenAnimParameter, true);
+                displayText = string.Empty;
+                isOpen = true;
+                unlockdoor();
             }
             base.interactwith();
         }
@@ -71,5 +80,12 @@ public class Door : InteractiveObject
         {
             
         }
+    }
+
+    private static void unlockdoor()
+    {
+        isLocked = false;
+        if (key != null && containsKey)
+            PlayerInventory.InventoryObject.Remove(key);
     }
 }
