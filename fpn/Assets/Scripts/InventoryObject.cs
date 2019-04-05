@@ -2,17 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryObject : MonoBehaviour
+public class InventoryObject : InteractiveObject
 {
-    // Start is called before the first frame update
-    void Start()
+    [Tooltip("name of the object")]
+    [SerializeField]
+    private string objectName;
+    private new Renderer renderer;
+    private new Collider collider;
+
+    public void Start()
     {
-        
+        renderer = GetComponent<Renderer>();
+        collider = GetComponent<Collider>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public InventoryObject()
     {
-        
+        displayText = nameof(InventoryObject);
+    }
+
+    public override void interactwith()
+    {
+        base.interactwith();
+        PlayerInventory.InventoryObject.Add(this);
+        renderer.enabled = false;
+        collider.enabled = false;
     }
 }
