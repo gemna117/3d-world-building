@@ -7,6 +7,14 @@ public class InventoryObject : InteractiveObject
     [Tooltip("name of the object")]
     [SerializeField]
     private string objectName;
+
+    [Tooltip("text for when the player selects an inventory object")]
+    [SerializeField]
+    private string description;
+
+    [Tooltip("icon to display for item")]
+    [SerializeField]
+    private Sprite icon;
     private new Renderer renderer;
     private new Collider collider;
 
