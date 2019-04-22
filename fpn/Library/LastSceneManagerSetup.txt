@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/HP/AppData/Local/Temp/Temp1_TestInstructions2D_Annotated.zip/Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/inventorymenu.unity
   isLoaded: 1
   isActive: 1
