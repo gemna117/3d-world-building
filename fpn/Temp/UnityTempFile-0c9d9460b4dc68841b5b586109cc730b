@@ -1,0 +1,363 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Unity.ProBuilder.Editor.dll
+-nostdlib
+-r:Library/ScriptAssemblies/Unity.ProBuilder.dll
+-r:Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+-r:Library/ScriptAssemblies/Unity.ProBuilder.Settings.Editor.dll
+-r:Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_3_1
+-define:UNITY_2018_3
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:NET_LEGACY
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_POST_PROCESSING_STACK_V2
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/AssemblyInfo.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/AutoUVEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/BezierSplineEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/BooleanEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ConfigurableWindow.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/DestroyListener.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/DimensionsEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorEnum.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorGUILayout.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorGUIUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorHandleUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorMeshHandles.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorMeshUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorSceneViewPicker.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorStyles.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorToolbar.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorToolbarLoader.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorToolbarMenuItems.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EditorUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EntityEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EntityUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/EntityVisibility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/Experimental.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/FileUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/HandleGUI.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/HierarchyListener.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/IconImporter.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/IconUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/IHasPreferences.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/LicenseEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/Lightmapping.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/LightmapUVEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/LogEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MaterialEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MaterialPalette.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MenuAction.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MenuActionStyles.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MenuItems.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MenuOption.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MeshAndElementSelection.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/MeshSelection.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/Model.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ObjExporter.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/pb_ObjectArray.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PlyExporter.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PolyShapeEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PositionMoveTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PositionRotateTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PositionScaleTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PositionTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/Pref.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PreferenceDictionaryEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/Preferences.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PreferencesInternal.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/PreferencesUpdater.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProBuilderEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProBuilderMenuActionAttribute.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProBuilderMeshEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProBuilderSettings.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProBuilderSettingsProvider.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ProGridsInterface.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ReflectionUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/RepairActions.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/SceneDragAndDropListener.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ScriptingSymbolManager.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/SelectionUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ShapeEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ShortcutManager.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/SmoothGroupEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/StaticEditorMeshHandles.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/StripProBuilderScripts.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TextureMoveTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TextureRotateTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TextureScaleTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TextureTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/ToolbarGroup.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TooltipContent.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/TooltipEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/UndoUtility.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/UnityScenePostProcessor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/UnwrapParametersEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/UVEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/UVRenderOptions.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/VersionValidator.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/VertexColorPalette.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/VertexManipulationTool.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/VertexManipulationToolSettings.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/EditorCore/VertexPositionEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/NewBezierShape.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/NewPolyShape.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenLightmapUVEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenMaterialEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenShapeEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenShapeEditorMenuItem.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenSmoothingEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenUVEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenVertexColorEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Editors/OpenVertexPositionEditor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/Export.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/ExportAsset.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/ExportObj.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/ExportPly.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/ExportStlAscii.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Export/ExportStlBinary.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/BevelEdges.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/BridgeEdges.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/CollapseVertices.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/ConformFaceNormals.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/ConnectEdges.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/ConnectVertices.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/DeleteFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/DetachFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/Extrude.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/ExtrudeEdges.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/ExtrudeFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/FillHole.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/FlipFaceEdge.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/FlipFaceNormals.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/InsertEdgeLoop.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/MergeFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SetPivotToSelection.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SmartConnect.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SmartSubdivide.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SplitVertices.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SubdivideEdges.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/SubdivideFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/TriangulateFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Geometry/WeldVertices.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Interaction/ToggleDragRectMode.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Interaction/ToggleDragSelectionMode.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Interaction/ToggleHandleOrientation.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Interaction/ToggleHandlePivotPoint.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Interaction/ToggleSelectBackFaces.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/CenterPivot.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/ConformObjectNormals.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/FlipObjectNormals.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/FreezeTransform.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/GenerateUV2.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/MergeObjects.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/MirrorObjects.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/ProBuilderize.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/SetCollider.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/SetTrigger.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/SubdivideObject.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Object/TriangulateObject.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/GrowSelection.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/InvertSelection.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectEdgeLoop.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectEdgeRing.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectFaceLoop.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectFaceRing.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectHole.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectLoop.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectMaterial.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectRing.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectSmoothingGroup.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/SelectVertexColor.cs
+C:/Users/HP/Documents/GitHub/3d-world-building/fpn/Library/PackageCache/com.unity.probuilder@4.0.3/Editor/MenuActions/Selection/ShrinkSelection.cs
